@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+}
+.container {
+  width:500px;
+  height:500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #be91b7;
+  border-radius: 10px;
+  text-align: center;
+
+}
+.header h1{
+  color: white;
+  padding: 30px;
+
+}
+.header button{
+  color: white;
+  background-color: #985e8f;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+
+
+}
+.header input{
+  border-radius: 5px;
+  border: 1px solid #985e8f;
+  padding: 10px;
+  
+
+}
+.todo-list{
+  color: white;
+  background-color: #985e8f;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px;
+  border: none;
+  height: 280px;
+  font-size: 20px;
+  accent-color:  #be91b7;
+  display: flex;
+  flex-direction: column;
+}
+
+.list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: space-between;  
+
+}
+ button{
+  color: white;
+  background-color: #be91b7;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+
+
+}
+
+.check{
+  width: 20px;
+
+}
+
+.complete{
+  background-color: rgb(58, 44, 57);
+  text-decoration: line-through;
+}
